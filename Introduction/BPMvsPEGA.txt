@@ -1,4 +1,17 @@
 What is Pega ? and Why only Pega ? BPM VS PEGA - Day-1 @7386608198
 Pega Tutorials -youtub- (https://www.youtube.com/watch?v=AlL8ZF9vB0Y&list=PL9FU81y_tBdfAlaEI-9zLWvonmJWBloaa)
 
-Pega 
+Pega is a BPM Toll
+Business process Management
+
+What is Business?- it is a collection of policies & strategies.
+
+What is Process?- it is a way of doing the things through functions or methods,
+a process contains approvals and rejections.
+
+What is a Business Process ? - it is a collection of related events,activities,decisions,actors & resources,
+, which collectively leads to an outcome for an organization or to a customer.
+
+
+
+
