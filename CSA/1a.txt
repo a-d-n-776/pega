@@ -1,1 +1,37 @@
+System Architect Certifications:-
+Building the applications of the future.
+1.Pega Certified System Architect ( The Pega Certified System Architect (PCSA) Career Path is for developers and technical staff members who want to learn how to develop Pega applications. This certification provides a baseline measurement on your knowledge of Pega Platform. )
 
+2.Pega Certified Senior System Architect ( Becoming a Pega Certified Senior System Architect (PCSSA) is for Pega Certified System Architects who wish to increase their Pega skills. This certification validates your ability to use Pega to design and build for reusability across multiple lines of business. You must be a Pega Certified System Architect to earn this certification. )
+
+3.Pega Certified Lead System Architect ( Becoming a Pega Certified Lead System Architect (PCLSA) is the final goal for Certified Senior System Architects who are ready to extend their knowledge and become part of an elite team who are the most competent and sought after resources for Pega projects. You must be a Pega Certified Senior System Architect to earn this certification. )
+
+4.Pega Certified Robotics System Architect ( The Pega Certified Robotics System Architect (PCRSA) career path is for system architects and software developers who are looking to enhance their skills in robotic automation and workforce intelligence. You will learn the basic functionality, process flow, terminology, and core building blocks of Pega Robot Studio. You will also learn how to integrate robotic automations with Windows and web applications, and learn how to use debugging tools to test your solution. )
+
+
+--------------------------------------------
+--------------------------------------------
+-----------------------------------------------
+
+Business Architect Certifications:
+[ Bottom line meets top technology.]
+
+1.Pega Certified Business Architect: ( The Pega Certified Business Architect (PCBA) certification concentrates on the ability to participate in the design and construction of a Pega application. PCBAs possess the fundamental, essential skills needed for analyzing, designing, and creating business requirements and specifications in the Pega application. )
+
+----------------------------------------
+----------------------------------------
+
+Data Scientist Certifications
+[ Don't just tell the story. Share the science. ]
+
+1.Don't just tell the story. Share the science. ( The Pega Certified Data Scientist (PCDS) career path is for professionals who want to become familiar with Pega’s Next-Best-Action paradigm, build and simulate decision strategies, and use predictive, adaptive, and text analytics in decision strategies. )
+
+-----------------------------------------------------
+-----------------------------------------------------
+
+Decisioning Consultant Certifications
+[ Know what customers want before they do. ]
+
+1.Pega Certified Decisioning Consultant ( The Pega Certified Decisioning Consultant (PCDC) career path is for professionals participating in the design and development of a Pega Decision Management or a Customer Decision Hub solution. This certification ensures you have the skills to apply design principles of Decision Strategies, Next-Best-Action, as well as Predictive Analytics. )
+
+2.Pega Certified Marketing Consultant (  )
