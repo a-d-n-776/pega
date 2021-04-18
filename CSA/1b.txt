@@ -1,4 +1,7 @@
+MISSION:::---
 Low-Code App Builder( 11 Modules - 10 Challenges - 10 hrs 35 mins ) (An introduction to using Pega Platform to develop applications that advance the digital transformation of organizations.)
+------------------------------------------------------------------------
+MODULES:::-------
 A-Low-code defined
 B-Defining a customer Microjourney
 C-Designing a case life cycle
@@ -6,6 +9,8 @@ C-Designing a case life cycle
 
 
 --------------------------------------------------------------------------------
+TOPICS:::----
+---------
 A-Low-code defined:- 
 Topics:
 1.Low code application development
