@@ -25,7 +25,7 @@ Business Architect Certifications:
 Data Scientist Certifications
 [ Don't just tell the story. Share the science. ]
 
-1.Don't just tell the story. Share the science. ( The Pega Certified Data Scientist (PCDS) career path is for professionals who want to become familiar with Pega’s Next-Best-Action paradigm, build and simulate decision strategies, and use predictive, adaptive, and text analytics in decision strategies. )
+1.Pega Certified Data Scientist. Share the science. ( The Pega Certified Data Scientist (PCDS) career path is for professionals who want to become familiar with Pega’s Next-Best-Action paradigm, build and simulate decision strategies, and use predictive, adaptive, and text analytics in decision strategies. )
 
 -----------------------------------------------------
 -----------------------------------------------------
