@@ -1,5 +1,6 @@
 System Architect Certifications:-
-Building the applications of the future.
+[ Building the applications of the future.]
+
 1.Pega Certified System Architect ( The Pega Certified System Architect (PCSA) Career Path is for developers and technical staff members who want to learn how to develop Pega applications. This certification provides a baseline measurement on your knowledge of Pega Platform. )
 
 2.Pega Certified Senior System Architect ( Becoming a Pega Certified Senior System Architect (PCSSA) is for Pega Certified System Architects who wish to increase their Pega skills. This certification validates your ability to use Pega to design and build for reusability across multiple lines of business. You must be a Pega Certified System Architect to earn this certification. )
