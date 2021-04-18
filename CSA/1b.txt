@@ -15,6 +15,9 @@ A-Low-code defined:-
 Topics:
 1.Low code application development
 2.Integrating with external applications
-3.Workspaces
+
+3.Workspaces : (Pega Platform studios - A workspace is an environment that provides specific tools and features. By using different workspaces to develop and manage your application, you can help team members focus on the tasks that align with their expertise.,, Pega Platform™ provides four role-based authoring workspaces, known as studios:  .App Studio .Dev Studio .Prediction Studio .Admin Studio )
+
+
 4.App Studio
 5.Module Quiz
