@@ -34,4 +34,5 @@ Topics:
 1.Pega Express methodology:- (Minimum Loveable Product (MLP) ),
 2.Case life cycle:-
 3.Case life cycle design:-
-4.
+4.Multi-step forms
+5.Draft mode
