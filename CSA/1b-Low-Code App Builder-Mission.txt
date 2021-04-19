@@ -36,3 +36,7 @@ Topics:
 3.Case life cycle design:-
 4.Multi-step forms
 5.Draft mode
+-----------------------------------------------------------------------------
+MODULE:-
+C-Designing a case life cycle:-
+1-
