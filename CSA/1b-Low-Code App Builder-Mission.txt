@@ -33,3 +33,5 @@ B-Defining a customer Microjourney:-
 Topics:
 1.Pega Express methodology:- (Minimum Loveable Product (MLP) ),
 2.Case life cycle:-
+3.Case life cycle design:-
+4.
