@@ -5,10 +5,13 @@ MODULES:::-------
 A-Low-code defined
 B-Defining a customer Microjourney
 C-Designing a case life cycle
-
+.....
 
 
 --------------------------------------------------------------------------------
+MODULE:-
+A-Low-code defined:::---
+-----------------
 TOPICS:::----
 ---------
 A-Low-code defined:- 
@@ -24,3 +27,9 @@ Topics:
 4.App Studio
 5.Module Quiz
 ----------------------------------------------------------------------------------------------------------------
+MODULE:-
+B-Defining a customer Microjourney:-
+-----------------------
+Topics:
+1.Pega Express methodology:- (Minimum Loveable Product (MLP) ),
+2.Case life cycle:-
