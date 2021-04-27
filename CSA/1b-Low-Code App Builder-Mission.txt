@@ -37,7 +37,25 @@ Topics:
 4.Multi-step forms
 5.Draft mode
 -----------------------------------------------------------------------------
-MODULE:-
+CHALLINGE:-
 C-Designing a case life cycle:-
 1-Scenario
-
+-------------------------------------------------------
+MODULE:-
+Setting case status:-
+Topics:
+1.Case status
+2.User guidance
+3.Module Quiz
+-------------------------
+CHALLINGE:-
+Setting case status
+--------------------
+MODULE:-
+Completing work on time
+Topics:-
+1.Service-level agreements
+2.Additional tasks for setting goals and deadlines
+--------------------
+CHALLENGE:-
+Enforcing service-level agreements:-
