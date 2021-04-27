@@ -59,3 +59,14 @@ Topics:-
 --------------------
 CHALLENGE:-
 Enforcing service-level agreements:-
+---------------
+MODULE:-
+Capturing and presenting data
+Topics:-
+1.Fields
+2.Fancy fields
+3.Views
+4.Additional tasks for capturing and presenting data
+--------------------------------------
+CHALLENGE:-
+Creating fields in views:-
