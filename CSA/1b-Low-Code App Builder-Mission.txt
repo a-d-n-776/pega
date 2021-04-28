@@ -73,4 +73,7 @@ Creating fields in views:-
 ------------------------------
 MODULE:-
 Calculating values
+Topics:-
+1.Calculated values
+2.MODULE QUIZ
 ------------------------------
