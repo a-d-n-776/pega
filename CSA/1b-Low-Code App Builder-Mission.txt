@@ -70,3 +70,7 @@ Topics:-
 --------------------------------------
 CHALLENGE:-
 Creating fields in views:-
+------------------------------
+MODULE:-
+Calculating values
+------------------------------
