@@ -77,3 +77,5 @@ Topics:-
 1.Calculated values
 2.MODULE QUIZ
 ------------------------------
+CHALLENGE:-
+Creating calculated fields
