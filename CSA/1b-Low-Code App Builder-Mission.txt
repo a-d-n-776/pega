@@ -79,3 +79,11 @@ Topics:-
 ------------------------------
 CHALLENGE:-
 Creating calculated fields
+--------------------------------
+MODULE:-
+Creating a data relationship:-
+Topics:-
+1.Data objects
+2.Data relationships
+3.MODULE QUIZ
+----------------
