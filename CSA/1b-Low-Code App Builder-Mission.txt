@@ -88,6 +88,12 @@ Topics:-
 3.MODULE QUIZ
 ----------------
 CHALLENGE:-
-Creating a data relationship ---------Not Done.....
+Creating a data relationship ---------Done.....
 ------------------------------
-
+MODULE:-
+Making data available to an application
+Topics:--
+1.Data records
+2.Data views
+3.Additional tasks for making data available to an application
+4.MODULE QUIZ
