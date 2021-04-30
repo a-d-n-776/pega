@@ -97,3 +97,17 @@ Topics:--
 2.Data views
 3.Additional tasks for making data available to an application
 4.MODULE QUIZ
+
+--------------------------------------
+CHALLENGE:-
+Adding data records to a data object
+
+------------------------------
+MODULE:-
+Routing assignments to users
+Topics:--
+1.Routing work
+2.MODULE QUIZ
+----------------------------------
+CHALLENGE:-
+Routing work to users
