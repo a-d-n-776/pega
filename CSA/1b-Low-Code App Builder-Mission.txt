@@ -127,3 +127,8 @@ Topics:-
 2.Additional tasks for sending email during case processing
 3.MODULE QUIZ
 ------------------------------------------
+CHALLENGE:-
+Sending email during case processing:
+--------------------------------------------------
+MISSION EXERCISE:-
+Low-Code App Builder
