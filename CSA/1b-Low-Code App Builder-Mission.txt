@@ -117,4 +117,13 @@ Designing an approval process
 Topics:--
 MODULE QUIZ
 ------------------------------------
-
+CHALLENGE:-
+Approving work
+-------------------------------
+MODULE:-
+Sending emails during case processing
+Topics:-
+1.Email correspondence
+2.Additional tasks for sending email during case processing
+3.MODULE QUIZ
+------------------------------------------
