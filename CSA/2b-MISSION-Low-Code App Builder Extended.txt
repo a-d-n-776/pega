@@ -1,0 +1,17 @@
+MISSION
+
+Low-Code App Builder Extended:---------
+-------------------------------------------------
+MODULE :- Managing application development
+Topics:-
+Agile Workbench-10 mins
+Creating stories-5 mins
+Populating story templates-5 mins
+Importing story templates-5 mins
+Creating bugs to report feature defects-5 mins
+Requesting feature enhancements-5 mins
+Creating features-5 mins
+Creating subfeatures-5 mins
+Changing statuses of work items-5 mins
+Collaborating with development teams-5 mins
+Module Quiz-5 mins
