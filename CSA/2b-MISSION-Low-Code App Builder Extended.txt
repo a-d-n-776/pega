@@ -27,3 +27,12 @@ Defining basic conditions for case types-5 mins
 Defining a threshold with weighted conditions for a case type-5 mins
 Module Quiz-5 mins
 --------------------------------------------------------
+CHALLENGE:-Adding a duplicate case type search
+-------------------------------------------------------
+MODULE:-Adding optional actions to a workflow
+Topics:-
+Optional actions-10 mins
+Adding optional actions to cases-5 mins
+Adding optional actions to stages-5 mins
+Module Quiz-5 mins
+--------------------------------------------------
