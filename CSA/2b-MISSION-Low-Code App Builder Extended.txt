@@ -16,3 +16,5 @@ Changing statuses of work items-5 mins
 Collaborating with development teams-5 mins
 Module Quiz-5 mins
 ---------------------------------------------------------------------
+CHALLENGE:-
+Refining an Agile Workbench backlog
