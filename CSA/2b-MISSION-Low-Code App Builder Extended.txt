@@ -44,3 +44,44 @@ Decision points-10 mins
 Adding decisions to processes-5 mins
 Module Quiz-5 mins
 ------------------------------------
+CHALLENGE:- Control the workflow based on business context  (Intresting flow graphes..)
+----------------------------------------------
+MODULE:- Skipping a process or a stage
+Topics:-
+Conditional execution of processes and stages-5 mins
+Defining conditions for skipping a stage-5 mins
+Defining conditions for starting a process-5 mins
+Module Quiz-5 mins
+-----------------------------------------------------
+CHALLENGE:-Skipping a process based on business context
+------------------------------------------------------
+MODULE:- Creating a child case
+Topics:-
+Child cases-10 mins
+Creating a child case type-5 mins
+Module Quiz-5 mins
+------------------------------------
+CHALLENGE:-Creating a child case
+---------------------------------
+MODULE:-Pausing and resuming case processing
+Topics:-
+Case workflow dependency-10 mins
+Pausing and resuming processes in cases-5 mins
+Module Quiz-5 mins
+--------------------------------------------------
+CHALLENGE:-Pausing and resuming case processing
+---------------------------------
+MODULE:-Viewing the data model
+Topics:-
+Integration Designer-5 mins
+Viewing the integration landscape-5 mins
+Viewing the data model for a case-5 mins
+Module Quiz-5 mins
+-------------------------------
+MODULE:-Validating data against business logic
+Topics:-
+Data validation-10 mins
+Validating field values on a form-5 mins
+Validating field values for stage entry-5 mins
+Module Quiz-5 mins
+-------------------------------------------------
