@@ -38,3 +38,9 @@ Module Quiz-5 mins
 --------------------------------------------------
 CHALLENGE:- Adding optional actions to a workflow
 ------------------------------------------
+MODULE:-Automating workflow decisions
+Topics:-
+Decision points-10 mins
+Adding decisions to processes-5 mins
+Module Quiz-5 mins
+------------------------------------
