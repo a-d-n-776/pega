@@ -120,3 +120,6 @@ Changing your dashboard layout-5 mins
 Adding a widget to your dashboard-5 mins
 Module Quiz-10 mins
 ---------------------------------------
+CHALLENGE:
+Customizing a dashboard
+--------------------------------
