@@ -111,3 +111,12 @@ Creating a page for an application-5 mins
 Updating the navigation menu for a portal-5 mins
 Module Quiz-5 mins
 ------------------------------------------------------------------------
+CHALLENGE:-Customizing a portal
+-----------------------------------------------------
+MODULE:-Customizing a dashboard
+Topics:-
+Dashboards-5 mins
+Changing your dashboard layout-5 mins
+Adding a widget to your dashboard-5 mins
+Module Quiz-10 mins
+---------------------------------------
