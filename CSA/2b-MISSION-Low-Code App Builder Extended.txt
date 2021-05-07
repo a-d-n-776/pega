@@ -88,3 +88,13 @@ Module Quiz-5 mins
 CHALLENGE:-
 Validating data against business logic
 ------------------------------------------
+MODULE:-Gaining insight into business efficiency
+Topics:-
+The Report Browser-5 mins
+Reports-15 mins
+Creating report categories-5 mins
+Creating a report-5 mins
+Editing a report-5 mins
+Adding or editing charts in the Report Editor-5 mins
+Module Quiz-10 mins
+--------------------------------------------------------------
