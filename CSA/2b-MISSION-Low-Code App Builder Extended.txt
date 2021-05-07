@@ -98,3 +98,16 @@ Editing a report-5 mins
 Adding or editing charts in the Report Editor-5 mins
 Module Quiz-10 mins
 --------------------------------------------------------------
+CHALLENGE:-Setting a visibility condition for form content
+-------------------------------------------
+CHALLENGE:-Adding dynamic functionality to a button
+---------------------------------------------------------
+MODULE:-Customizing portal content
+Topics:-
+Channel interfaces-5 mins
+Portals and landing pages-10 mins
+Building portals-5 mins
+Creating a page for an application-5 mins
+Updating the navigation menu for a portal-5 mins
+Module Quiz-5 mins
+------------------------------------------------------------------------
