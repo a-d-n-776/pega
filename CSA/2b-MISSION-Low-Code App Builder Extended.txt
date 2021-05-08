@@ -123,3 +123,16 @@ Module Quiz-10 mins
 CHALLENGE:
 Customizing a dashboard
 --------------------------------
+MODULE:-Designing a mobile app experience
+Topics:-
+Mobile app channels-5 mins
+Setting up mobile apps-5 mins
+Adding items to the menu bar-5 mins
+Designing a new mobile list page-10 mins
+Customizing the image assets of mobile apps-5 mins
+Previewing mobile apps-10 mins
+Module Quiz-5 mins
+------------------------------------------
+CHALLENGE:-
+Designing a mobile app experience
+-------------------------------------------
