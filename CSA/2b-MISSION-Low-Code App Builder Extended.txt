@@ -136,3 +136,12 @@ Module Quiz-5 mins
 CHALLENGE:-
 Designing a mobile app experience
 -------------------------------------------
+MODULE:-Inviting users to an application
+Topics:-
+Users and personas-5 mins
+Granting personas access to channels and pages-5 mins
+Inviting collaborators to your application-5 mins
+Module Quiz-5 mins
+-----------------------------------------------------
+CHALLENGE:-Creating users and roles
+----------------------------------------
