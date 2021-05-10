@@ -1,3 +1,6 @@
 MODULE:-
 Roles on a Pega project
+Topics:-
+Roles on a Pega project-10 mins
+Module Quiz-5 mins
 -----------------------------------
