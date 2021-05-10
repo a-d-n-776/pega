@@ -4,3 +4,19 @@ Topics:-
 Roles on a Pega project-10 mins
 Module Quiz-5 mins
 -----------------------------------
+MODULE:-Dev Studio overview
+Topics:-
+Dev Studio-10 mins
+Changing your workspace-5 mins
+Module Quiz-5 mins
+------------------------------------
+MODULE:-Creating a rule
+Topics:-
+Rules and rule types-10 mins
+Rulesets-5 mins
+Rule creation-5 mins
+Creating a rule-5 mins
+Classes and class hierarchy-10 mins
+Rule reuse through inheritance-10 mins
+Module Quiz-5 mins
+------------------------------------------------
