@@ -28,3 +28,12 @@ Checking in a rule-5 mins
 Performing a private edit-5 mins
 Module Quiz-5 mins
 --------------------------------------
+MODULE:-Manipulating application data
+Topics:-
+Data transforms-5 mins
+Configuring data transform-5 mins
+Data transform actions for Clipboard-5 mins
+Referencing properties-5 mins
+Adding data transform to a process-5 mins
+Module Quiz-5 mins
+---------------------------------------------------------------------
