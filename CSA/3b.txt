@@ -20,3 +20,11 @@ Classes and class hierarchy-10 mins
 Rule reuse through inheritance-10 mins
 Module Quiz-5 mins
 ------------------------------------------------
+MODULE:-Updating rules
+Topics:-
+Rule updates-10 mins
+Checking out a rule-5 mins
+Checking in a rule-5 mins
+Performing a private edit-5 mins
+Module Quiz-5 mins
+--------------------------------------
