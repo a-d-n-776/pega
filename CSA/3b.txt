@@ -48,3 +48,19 @@ Module Quiz-5 mins
 ------------------------------------------------------
 CHALLENGE:- Escalating late work
 -------------------------------------------------------
+MODULE:-Attaching PDF files to a case
+Topics:-
+PDF automation-10 mins
+Attaching screen captures to a case-5 mins
+Module Quiz-5 mins
+--------------------------------------------
+CHALLENGE:-Attaching PDF files to a case
+--------------------------------------------
+MODULE:-Configuring cascading approvals with a reporting structure
+Topics:-
+Cascading approvals with a reporting structure-10 mins
+Configuring cascading approvals-5 mins
+Module Quiz-5 mins
+---------------------------------------------
+CHALLENGE:-Configuring a cascading approval with a reporting structure
+--------------------------------------------------------------------
