@@ -37,3 +37,14 @@ Referencing properties-5 mins
 Adding data transform to a process-5 mins
 Module Quiz-5 mins
 ---------------------------------------------------------------------
+CHALLENGE:-Manipulating application data
+-----------------------------------------------------------
+
+MODULE:-Escalating late work
+Topics:-
+Passed deadline interval-5 mins
+Configuring a passed deadline interval-5 mins
+Module Quiz-5 mins
+------------------------------------------------------
+CHALLENGE:- Escalating late work
+-------------------------------------------------------
