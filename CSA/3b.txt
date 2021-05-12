@@ -71,4 +71,29 @@ Decision rule conflicts-5 mins
 Creating decision tables-5 mins
 Module Quiz-5 mins
 -------------------------------------------------------------------
-
+MODULE:-Automating decisions with decision trees
+Topics:-
+Decision trees-10 mins
+Decision tree or decision table-5 mins
+Creating decision trees-5 mins
+Module Quiz-5 mins
+------------------------------------------------------------------
+CHALLENGE:-Automating decisions with decision trees
+------------------------------------------------------------------
+MODULE:-Configuring case approvals with an authority matrix
+Topics:-
+Cascading approvals with an authority matrix-10 mins
+Configuring approvals with an authority matrix-5 mins
+Module Quiz-5 mins
+---------------------------------------------------------------
+CHALLENGE:-Configuring case approvals with an authority matrix
+-------------------------------------------------------------
+MODULE:-Creating and managing teams of users
+Topics:-
+Teams of users-10 mins
+Creating a team-5 mins
+Adding work queues to a team-5 mins
+Module Quiz-5 mins
+-------------------------------------------------------------
+CHALLENGE:-Creating and managing teams of users
+-------------------------------------------------------------
