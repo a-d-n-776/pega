@@ -64,3 +64,11 @@ Module Quiz-5 mins
 ---------------------------------------------
 CHALLENGE:-Configuring a cascading approval with a reporting structure
 --------------------------------------------------------------------
+MODULE:-Automating decisions with decision tables
+Topics:-
+Decision tables-15 mins
+Decision rule conflicts-5 mins
+Creating decision tables-5 mins
+Module Quiz-5 mins
+-------------------------------------------------------------------
+
