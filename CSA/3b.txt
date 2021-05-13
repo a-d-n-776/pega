@@ -97,3 +97,21 @@ Module Quiz-5 mins
 -------------------------------------------------------------
 CHALLENGE:-Creating and managing teams of users
 -------------------------------------------------------------
+MODULE:-Viewing data in memory
+Topics:-
+Data storage in memory-5 mins
+Clipboard data-5 mins
+pyWorkPage-5 mins
+Setting property values with the clipboard-5 mins
+Module Quiz-5 mins
+-----------------------------------------------------------
+MODULE:-Validating data in Dev Studio
+Topics:-
+Data validation in Dev Studio-15 mins
+Validating field input in complex scenarios-5 mins
+Validating character patterns-5 mins
+Adding a validation rule to a flow action-5 mins
+Module Quiz-5 mins
+-------------------------------------------
+CHALLENGE:--Validating data in Dev Studio
+-------------------------------------------
