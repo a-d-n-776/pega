@@ -123,3 +123,12 @@ Module Quiz-5 mins
 ----------------------------------------
 CHALLENGE:--Setting default property values
 ----------------------------------------
+MODULE:-Accessing sourced data in a case
+Topics:-
+Data pages-10 mins
+Refresh strategies for data pages-10 mins
+Page autopopulation-10 mins
+Configuring page, page group, and page list properties-5 mins
+Data access in UI controls-5 mins
+Module Quiz-5 mins
+------------------------------------------------------------
