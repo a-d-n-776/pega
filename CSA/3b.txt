@@ -115,3 +115,11 @@ Module Quiz-5 mins
 -------------------------------------------
 CHALLENGE:--Validating data in Dev Studio
 -------------------------------------------
+MODULE:-Setting default property values
+Topics:-
+Default property values-10 mins
+Superclass feature-10 mins
+Module Quiz-5 mins
+----------------------------------------
+CHALLENGE:--Setting default property values
+----------------------------------------
