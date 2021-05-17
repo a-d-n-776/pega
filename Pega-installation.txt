@@ -1,0 +1,19 @@
+Youtub: Pega Knowledge Sharing
+How To Install Pega Platform 8.5.2 Standard Edition with Apache Tomcat and PostgreSQL on Windows 10 :------
+=====
+Prerequisites:
+1.Download the 116916_Pega8.52.zip from Pega via My Digital Software Delivery.
+2.Download the PostgreSQL Database, I have downloaded 9.6 for my windows 64-bit operating system.
+3.Download & Install Java and JDK.
+4.Download PostgreSQL JDBC Driver (You can download the jar from Stack Builder also)
+5.Download and Install Apache Tomcat Server
+
+If you are unsure on How to Install and Configure PostgreSQL, Java, jdk and Apache Tomcat Server, then pause this video right here, and watch below videos on my channel.
+( Pega Knowledge Sharing- Youtuber )
+
+==========
+1.https://community.pega.com/digital-delivery 
+2.https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+3.https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html
+4.https://jdbc.postgresql.org/download.html
+5.https://tomcat.apache.org/download-80.cgi
