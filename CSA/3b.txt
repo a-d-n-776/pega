@@ -132,3 +132,42 @@ Configuring page, page group, and page list properties-5 mins
 Data access in UI controls-5 mins
 Module Quiz-5 mins
 ------------------------------------------------------------
+MODULE:-Saving data to a system of record
+Topics:-
+Savable data pages-15 mins
+Save data page automation-10 mins
+Creating a data page save plan-5 mins
+Adding a Save data page step-5 mins
+Module Quiz-5 mins
+------------------------------------------------------------------
+CHALLENGE:--Saving data to a system of record
+------------------------------------------------
+MODULE:-Pega UX solutions
+Topics:-
+Low-code UX-5 mins
+Pega Cosmos design system-15 mins
+Pega Cosmos essential anatomy-15 mins
+Pega Cosmos advantages-15 mins
+Module Quiz-5 mins
+------------------------------------------
+MODULE:-Designing UI for multiple devices
+Topics:-
+Responsive user interface-10 mins
+Responsive UI and tabular data-5 mins
+Previewing a portal-5 mins
+Prioritizing information in tables-5 mins
+Arranging column visibility by importance-5 mins
+Mobile design best practices-20 mins
+Module Quiz-5 mins
+------------------------------------------
+MODULE:-Customizing the appearance of a form
+Topics:-
+Information and the user interface
+10 mins
+User interface controls-10 mins
+Adding text to controls-5 mins
+Dynamic layouts-10 mins
+Organizing your form-5 mins
+Repeating layouts-5 mins
+Module Quiz-5 mins
+-------------------------------------------
