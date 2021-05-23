@@ -171,3 +171,178 @@ Organizing your form-5 mins
 Repeating layouts-5 mins
 Module Quiz-5 mins
 -------------------------------------------
+CHALLENGE:-Customizing the appearance of a form
+-------------------
+MODULE:Grouping fields in views
+Topics:-
+Layout groups-5 mins
+Creating a layout group-5 mins
+Module Quiz-5 mins
+-----------------
+CHALLENGE:-Grouping fields in views
+----------
+MODULE-Displaying list data in views
+Topics:
+Repeating dynamic layouts-10 mins
+Creating a repeating dynamic layout-5 mins
+Module Quiz-5 mins
+-------------
+CHALLENGE:-Displaying list data in views
+---------
+MODULE-Localizing application content
+Topics
+Localization-15 mins
+Design considerations for localization-10 mins
+Localizing your application-10 mins
+Module Quiz-5 mins
+-------------
+CHALLENGE:-Localizing a UI form
+--------
+MODULE-Enabling accessibility features in applications
+Topics
+Application accessibility
+15 mins
+Inspecting accessibility
+5 mins
+Module Quiz
+5 mins
+-------------------
+CHALLENGE:-Enabling accessibility features in applications
+--------
+MODULE
+Simulating an external data source
+Topics
+Simulated external data sources
+15 mins
+Simulating data
+5 mins
+Module Quiz
+10 mins
+----------
+CHALLENGE:-Simulating an external data source
+-------
+MODULE
+Adding an external data source to a data type
+Topics
+Connectors and services
+10 mins
+External data sources for data types
+15 mins
+Mapping fields for the GET method for existing data objects
+5 mins
+Mapping fields for the POST method for existing data objects
+5 mins
+Module Quiz
+5 mins
+-----------
+CHALLENGE:-Adding an external data source to a data type
+-------
+MODULE
+Configuring security policies
+Topics
+Passwords and system access
+10 mins
+Security policies
+10 mins
+Managing security policies
+5 mins
+Security policies settings
+5 mins
+Module Quiz
+10 mins
+-------------------------
+CHALLENGE:-Configuring security policies
+-------
+MODULE
+Managing application access
+opics
+Application access
+10 mins
+Access control
+10 mins
+Modifying operator permissions with access manager
+5 mins
+Module Quiz
+5 mins
+-----------
+CHALLENGE:-Managing application access
+--------
+MODULE
+Tracking and auditing changes to data
+Topics
+Field-level auditing
+10 mins
+Enabling field-level auditing
+5 mins
+Module Quiz
+5 mins
+------------
+CHALLENGE:-Auditing changes to the value of fields
+-------------------------
+MODULE
+Debugging application errors
+Topics
+The Tracer
+10 mins
+Application error investigation with the Tracer tool
+10 mins
+Tracer settings management
+15 mins
+Configuring Tracer settings
+5 mins
+Viewing Tracer results in the Tracer window
+5 mins
+Module Quiz
+5 mins
+-----------------------
+CHALLENGE:-Debugging application errors
+--------
+MODULE
+Release management with Pega Platform
+Topics
+Release management with Pega Platform
+20 mins
+Agile development best practices
+10 mins
+Module Quiz
+5 mins
+--------------
+MODULE
+Unit testing rules
+Topics
+Unit tests
+40 mins
+Unit testing individual rules
+5 mins
+Creating unit test cases for rules
+5 mins
+Creating unit test cases for flows and case types
+5 mins
+Module Quiz
+5 mins
+-----------------
+CHALLENGE:-Unit testing rules
+------
+MODULE
+Creating and executing scenario-based test cases
+Topics
+Scenario testing
+15 mins
+Creating scenario tests
+5 mins
+Module Quiz
+5 mins
+--------
+CHALLENGE:-Creating a new scenario test case
+----------
+MISSION EXERCISE-
+System Architect
+19 Tasks
+3 hrs
+---------------
+MISSION TEST-
+System Architect
+60 Questions
+1 hr 30 mins
+Passed - May 20, 2021
+------------------
