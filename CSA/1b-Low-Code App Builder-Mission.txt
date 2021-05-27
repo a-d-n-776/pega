@@ -137,3 +137,14 @@ MISSION TEST:-
 ( 25 Questions
 40 mins )
 Low-Code App Builder
+
+-----------------------------
+Version-8.6...Updates...
+---
+MODULE:-
+Calculating values
+Topics-
+Calculated values-20 mins
+Module Quiz-5 mins
+-------------
+
