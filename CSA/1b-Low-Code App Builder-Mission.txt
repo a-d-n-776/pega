@@ -147,4 +147,13 @@ Topics-
 Calculated values-20 mins
 Module Quiz-5 mins
 -------------
-
+MODULE-
+Creating a data relationship
+Topics-
+Data objects-10 mins
+Data relationships-10 mins
+Module Quiz-10 mins
+--------
+CHALLENGE
+Creating a data relationship
+------
