@@ -1,0 +1,24 @@
+
+
+DT  Created @ Data class like(A1,a2.. config Section)
+-----------Pages & Classes-----------
+SeatRowList							Code-Pega-List
+SeatRowList.pxResults				MyOrg-BookMyShow-Data-SeatDetails
+SeatRowList.pxResults().pxResults	MyOrg-BookMyShow-Data-SeatDetails
+Temp								MyOrg-BookMyShow-Work-BookTicket
+----------------------------------
+Parameters - Becasue of Calulation purpose..
+
+GrandTotalPrice  - integer
+SeatPrice - integer
+---------------------------------------
+1.Set - Temp.GrandTotal  equalto -  0
+2.ForEachPagein - SeatRowList.pxResults 
+	2.1.Set - param.rowcount equalto - param.pyForEachCount
+	2.2.ForEachPagein -  SeatRowList.pxResults(param.rowcount).pxResults
+		2.2.1. When - .pySelected==true
+				2.2.1.1. Set - param.SeatPrice equalto -  .SeatPrice
+				2.2.1.2. Set - Temp.GrandTotal equalto -  .Temp.GrandTotal+param.SeatPrice
+				
+				
+				

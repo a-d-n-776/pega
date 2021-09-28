@@ -1,0 +1,38 @@
+1.For Each Page in - SeatRowList.pxResults 
+	1.1.For Each Page in - .pxResults
+		1.1.1. When - .Disable!="true" - 
+			1.1.1.1. Set -.pySelected equal to - true
+			
+			
+			
+---------------------------------------
+SeatRowList - Code-Pega-List
+SeatRowList.pxResults - MyOrg-BookMyShow-Data-SeatDetails
+.pxResults - MyOrg-BookMyShow-Data-SeatDetails
+
+----------
+When - .Disable!="true" -  
+
+SeatDetails  
+----Using activity trigering this DT: 
+
+Pages & Class :
+SeatDetails - MyOrg-BookMyShow-Data-SeatDetails
+
+Sterp-1 -   Apply-DataTransform(Method)   - SeatDetails(step page)
+DT- BookAllSeats
+-----------------------
+MyOrg-BookMyShow-Data-SeatDetails -Here Created BookAllSeats DataTransform:
+
+---Pages & Class:
+SeatRowList - Code-Pega-List
+SeatRowList.pxResults - MyOrg-BookMyShow-Data-SeatDetails
+.pxResults - MyOrg-BookMyShow-Data-SeatDetails
+----
+1.For Each Page in - SeatRowList.pxResults
+	1.1.For Each Page in - .pxResults 
+		1.1.1.When    .Disable!="true"
+			1.1.1.1. Set .pySelected equal to true
+			
+			
+----------------------------------------

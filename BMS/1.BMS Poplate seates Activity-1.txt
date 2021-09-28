@@ -1,0 +1,63 @@
+1.Property-Set:
+param.theatreID   .TheatreName
+param.date         .Date
+param.showTime      .ShowTime
+
+
+
+2.Page-New: SeatRowList
+
+3.Property-Set: SeatRowList
+
+SeatRowList.pxResults   D_SeatDetailsList.pxResults
+
+4.Property-Set: SeatRowList.pxResults
+Loop: For each embeed page in: MyOrg-BT-Data-SeatDetails
+
+param.rowID   		 .RowID
+param.rowcount  	 param.pyForEachCount
+param.totalSeats     .TotalSeats
+param.incrementer    1
+param.SeatPrice		 .SeatPrice #Added New
+param.TotalPrice	 .TotalPrice
+
+	4.1.Property-Set:
+	
+	SeatRowList.pxResults(param.rowcount).SeatPrice		param.SeatPrice #Added New
+
+	4.2.Property-Set:
+	Loop: For Loop Min-1, Max-param.totalSeats ,increment-1
+	
+	SeatRowList.pxResults(param.rowcount).pxResults(<Append>).pxObjClass   	 MyOrg-BT-Data-SeatDetails  #Append -This index is used , when we need to append an element to the highest index value.,
+	SeatRowList.pxResults(param.rowcount).pxResults(<Last>).RowID            .RowID					    #Append  -This is used only in target properties- it means properties on left in property set method.
+	SeatRowList.pxResults(param.rowcount).pxResults(<Last>).TheatreID        .TheatreID					#Append -This is applicable for value list & page list properties
+	SeatRowList.pxResults(param.rowcount).pxResults(<Last>).SeatID           .RowID+param.incrementer
+	param.seatID                                                             .RowID+param.incrementer	#Last -This index is used to retrieve the last element in value list/ value group property.
+	param.incrementer                                                        param.incrementer+1		#Last - <LAST> will be replaced with the Highest subscript or index.
+	SeatRowList.pxResults(param.rowcount).pxResults(<LAST>).SeatPrice		 .SeatPrice #Added New 		#Last - This is applicable for value list & page list properties
+	.TotalPrice																.RowPrice*.SeatPrice
+
+
+
+			4.2.1.Property-Set: 
+			When:
+			.pySelected==true ifTrue(continue) iffalse(Exit iteration)
+			
+			
+			4.2.1.Property-Set: D_BookedSeatsList.pxResults
+			loop: For each embeded page in : MyOrg-BT-Data-BookedSeats
+			When :
+			.Date==param.date  ifTrue(continue) iffalse(Exit iteration)
+			.ShowTime==param.showTime   		ifTrue(continue) iffalse(Exit iteration)
+			.SeatID==param.seatID       		ifTrue(continue) iffalse(Exit iteration)
+			.Status!="Cancelled"				ifTrue(continue) iffalse(Exit iteration)
+
+			SeatRowList.pxResults(param.rowcount).pxResults(<Last>).Disable    True
+----------------------------------------------------------------
+Pages& Classes:::
+SeatRowList            Code-Pega-List
+SeatRowList.pxResults       MyOrg-BT-Data-SeatDetails
+SeatRowList.pxResults().pxResults            MyOrg-BT-Data-SeatDetails
+D_SeatDetailsList.pxResults                  MyOrg-BT-Data-SeatDetails
+D_BookedSeatsList.pxResults                  MyOrg-BT-Data-SeatDetails
+

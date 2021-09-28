@@ -1,0 +1,35 @@
+1.Property-Set:
+param.Date          Date
+param.ShowTime      ShowTime
+param.CityName      CityName
+param.MovieName     MovieName
+param.TheatreID     TheatreID
+
+2.Property-Set :  SeatRowList.pxResults    #(A,B,..)
+Loop: For Each Embeed Page      MyOrg-BT-Data-SeatDetails
+
+param.rowCount      param.pyForEachCount
+    2.1. Page-New : BookedSeats
+    2.2. Property-Set: SeatRowList.pxResults(param.rowCount).pxResults  #(a1,a2...b1,b2..,...)
+    Loop: For Each Embeed Page      MyOrg-BT-Data-SeatDetails
+    When: .pySelected==true is true continue,  if false exit iteration.
+
+    param.SeatID            param.pyForEachCount
+    param.TheatreID         .TheatreID
+    param.SeatID            .SeatID
+    param.RowID             .RowID
+
+    2.2.1. Property-Set : BookedSeats
+	.TheatreName	param.TheatreID
+	.SeatID			param.SeatID
+	.Date			param.Date
+	.ShowTime		param.ShowTime
+	.RowID			param.RowID
+	.pxObjClass		"MyOrg-BT-Data-BookedSeats"
+	.ID				@CreateUniqueID()+param.SeatID
+	.CityName		param.CityName
+	.MovieName		param.MovieName
+	
+	2.2.2. Obj-Save : BookedSeats
+	Write Now - enabled.
+	

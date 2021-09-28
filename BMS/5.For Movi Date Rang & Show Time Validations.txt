@@ -1,0 +1,48 @@
+1. Create Activity:
+2. In Activity Use Method -  Obj-Validate
+3.Call Validate from Activity - TimeValidate
+4.TimeValidate Validate:
+a.
+Property : .DateTime   
+Conditions:-
+Validate .DateTime  : .Enable conditions
+Select a functionality : [expression evaluates to true]
+If : @CompareDates(@FormatDateTime(@CurrentDateTime(),yyyyMMdd,pxRequestor.pyUseTimeZone,en_US),@FormatDateTime(.DateTime,yyyyMMdd,pxRequestor.pyUseTimeZone,en_US))
+Message Continue validation	: Past Date is not accepted.
+###
+@CompareDates
+(@FormatDateTime(@CurrentDateTime(),yyyyMMdd,pxRequestor.pyUseTimeZone,en_US)
+,@FormatDateTime(.DateTime,yyyyMMdd,pxRequestor.pyUseTimeZone,en_US))
+##
+b.
+Property : .TimeSlot
+Validate .TimeSlot	: .Enable conditions
+Select a functionality :[expression evaluates to true]
+If :.TimeSlot!==""
+
+Select a functionality :[expression evaluates to true]
+AND : @CompareDateTimeStamp(@FormatDateTime(@CurrentDateTime(),yyyyMMdd,pxRequestor.pyUseTimeZone,en_US)+"T000000.000 GMT",@FormatDateTime(.DateTime,yyyyMMdd,pxRequestor.pyUseTimeZone,en_US)+"T000000.000 GMT")
+###
+ @CompareDateTimeStamp
+ (@FormatDateTime(@CurrentDateTime(),yyyyMMdd,pxRequestor.pyUseTimeZone,en_US)+"T000000.000 GMT"
+ ,@FormatDateTime(.DateTime,yyyyMMdd,pxRequestor.pyUseTimeZone,en_US)+"T000000.000 GMT")
+
+##
+
+Select a functionality :[expression evaluates to true]
+AND : @defaultCompareTimes(.TimeSlot,@FormatDateTime(@CurrentDateTime(),HHmmss,pxRequestor.pyUseTimeZone,en_US))<0
+
+Message Continue validation	: The Show is no longer available
+
+
+C.
+Property : .DateTime	
+Validate	.DateTime	: 	.Enable conditions
+Select a functionality : [expression evaluates to true]
+If : Primary.DateTime<SetDate.StartDate||Primary.DateTime>SetDate.EndDate
+Message Continue Validation : Select Date With in The Range
+
+
+
+
+

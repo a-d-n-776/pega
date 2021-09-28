@@ -1,0 +1,33 @@
+
+-Activity Created @ Data class like(A1,a2.. config Section)
+
+1.Property-Set			Step page(Nothing)
+Temp.GrandTotal - 0	
+	
+2. Property-Set			Step page(SeatRowList.pxResults)
+Loop: For each embedded page - MyOrg-BookMyShow-Data-SeatDetails
+param.rowcount - param.pyForEachCount
+
+	2.1. Property-Set	Step page(SeatRowList.pxResults(param.rowcount).pxResults)
+	Loop: For each embedded page - MyOrg-BookMyShow-Data-SeatDetails
+	When : .pySelected==true (True - Continue false- Exite iteration)
+	param.SeatPrice - .SeatPrice
+		
+		2.1.1. Property-Set Step page(Nothing)
+		Temp.GrandTotal	- Temp.GrandTotal+param.SeatPrice
+		
+		
+-------------------- --
+Parameters - Becasue of Calulation purpose..
+
+GrandTotalPrice  - integer
+SeatPrice - integer
+		
+		
+--------------------------------------------------
+SeatRowList							Code-Pega-List
+SeatRowList.pxResults				MyOrg-BookMyShow-Data-SeatDetails
+SeatRowList.pxResults().pxResults	MyOrg-BookMyShow-Data-SeatDetails
+Temp								MyOrg-BookMyShow-Work-BookTicket
+
+--
