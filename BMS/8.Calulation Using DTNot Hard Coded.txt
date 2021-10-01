@@ -16,7 +16,7 @@ SeatPrice - integer
 2.ForEachPagein - SeatRowList.pxResults 
 	2.1.Set - param.rowcount equalto - param.pyForEachCount
 	2.2.ForEachPagein -  SeatRowList.pxResults(param.rowcount).pxResults
-		2.2.1. When - .pySelected==true
+		2.2.1. When - .pySelected=="true"
 				2.2.1.1. Set - param.SeatPrice equalto -  .SeatPrice
 				2.2.1.2. Set - Temp.GrandTotal equalto -  .Temp.GrandTotal+param.SeatPrice
 				

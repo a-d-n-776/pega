@@ -1,0 +1,22 @@
+--------------------Created in work class & Calling This DT Movi Name Property in Section..
+----For Data Page List(Source RPD)-----------------
+This DT Used for Based on MOvie Name we can Populate From Date & To Date...
+1.Set	Param.Movie	.MovieName
+2.Primary.MovieStartDate	D_ListMovieInfoo[MovieName:Param.Movie].pxResults(1).StartDate
+3.Primary.MovieEndDate	D_ListMovieInfoo[MovieName:Param.Movie].pxResults(1).EndDate
+--------------
+..Pages & Classes..
+D_ListMovieInfoo.pxResults	 MyOrg-BookMyShow-Data-MovieInfo
+--------
+Parameters - MovieName  String...
+
+
+
+----For Data Page (Source Lockup)-----------------
+..Pages & Classes..
+D_MovieInfo	 - MyOrg-BookMyShow-Data-MovieInfo
+
+1. Set	Primary.MovieStartDate		D_MovieInfo.StartDate
+2. Set	Primary.MovieEndDate 		D_MovieInfo.EndDate
+---
+Parameters - MovieID String...

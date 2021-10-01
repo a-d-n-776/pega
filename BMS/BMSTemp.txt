@@ -1,0 +1,18 @@
+Clipboard page: SeatRowList.pxResults(1).pxResults(6)
+
+Property   Value
+Disable
+pxObjClass MyOrg-BT-Data-SeatDetails
+pySelected    true
+RowID          A
+SeatID        A6
+TheatreID     SAT
+----------------------
+pySelected    true AND RowID  A Then 300
+-----
+1.param.TotalCost - equal to - 0
+2.For Each Page in - SeatRowList.pxResults
+	2.1. For Each Page in - .pxResults
+		2.1.1. Set - param.Count -  equal to 0
+		2.1.2. When - .Disable!="true" - 
+			2.1.2.1.When - .pySelected=="true"

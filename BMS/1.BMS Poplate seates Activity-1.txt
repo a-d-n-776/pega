@@ -1,3 +1,8 @@
+Parames:
+theatreID   
+date
+showTime 
+increment  integer
 1.Property-Set:
 param.theatreID   .TheatreName
 param.date         .Date

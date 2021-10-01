@@ -1,0 +1,22 @@
+
+
+I Want to SelectAllSeatsForCancelation with one click..
+so im Creating DT IN DATA CLss Im calling from Work class so im create donother DT IN work class also.
+
+
+MyOrg-BookMyShow-Data-SeatsBooked - SelectAllSeatsForCancelation
+
+Pages & Classes:
+ShowTickets					Code-Pega-List
+ShowTickets.pxResults		MyOrg-BookMyShow-Data-SeatsBooked
+Tempa						MyOrg-BookMyShow-Work-BookTicket
+
+-------
+ShowTicket -This page created in activity for Browse Recordes in Booked Seates table.
+---
+	1.ForEachPagein			ShowTickets.pxResults			.Also use each page as source context
+		1.1.When			.Cancel=="false"
+			1.1.1 Set 		.Cancel			equalto			"true"
+			
+	-------Call Abou DT @ Cancel Ticketes Flow in cancell Ticet Screen Selct all Seate Action Buton.
+	

@@ -1,0 +1,29 @@
+.Email = primary.Email || .PhoneNumber = primary.PhoneNumber
+
+
+.Email = pyWorkPage.Email || .PhoneNumber = pyWorkPage.PhoneNumber
+
+
+--
+1-Obj-Browse
+BrowsePage
+
+Primary.Operation=="BrowseSeates" || Primary.Operation=="CancelSeat"
+
+-----
+pxAddMessageToPage - used in validation..
+param.ErrorMessage - source
+
+
+@pxAddMessageToPage(PleaseSelectatLeastOneSeat)
+.pySelected=="false"
+.Disable!="true"
+
+SeatRowList.pxResults
+Param.lsSelected - "false"
+--
+---------
+1.Search secren set value in drop down..
+2.Time slot- Today date- set past time slot not visable..
+3.Bokking ticket- Previos without select seat not workin..
+4.

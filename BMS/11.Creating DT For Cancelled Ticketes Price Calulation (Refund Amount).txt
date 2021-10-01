@@ -1,0 +1,44 @@
+Pre Requisetes..
+1.We wantSave Each Seat Price in DataBase Then only cancelled Ticketes we can refound.
+IN Save Booked Ticketes Activity.. 
+SeatRowList.pxResults(param.rowCount).pxResults		- 	In this Page List..
+		2.Property-Set		SeatRowList.pxResults(param.rowCount).pxResults
+			Loop: Each embeed page in - MyOrg-BookMyShow-Data-SeatDetails
+			When: .pySelected==true If True Itrate Other wise exit.
+			param.SeatPrice			.SeatPrice
+			
+				2.1. Property-Set	SeatsBooked
+					.SeatPrice		param.SeatPrice		#SeatPrice Created in Booked Seates Table.
+				2.2 Obj-Save	SeatsBooked
+				#Now Booked Seates Price Also saved in Booked Seates table.
+-------------------------------- -------------------- ------
+Create A DT IN - MyOrg-BookMyShow-Data-SeatsBooked
+Name- RefundAmountCalculation
+---
+Pages & Classes:
+ShowTickets				Code-Pega-List
+ShowTickets.pxResults	MyOrg-BookMyShow-Data-SeatsBooked
+Tempa					MyOrg-BookMyShow-Work-BookTicket
+-------
+Parameters:
+RefundAmount	- integer
+SeatPrice		- integer
+---
+Create Work class property RefundAmount as integer type.
+				
+-------
+1.	Set				Tempa.RefundAmount		equalto			0.00
+2.	ForEachPagin	ShowTickets.pxResults		.AlsoUseEachPageasSourceContext
+	2.1	When		.Cancel=="true"		
+		2.1.1.		param.SeatPrice			equalto			.SeatPrice
+		2.1.2.		Tempa.RefundAmount		equalto			Tempa.RefundAmount+param.SeatPrice
+		
+NOTE: ShowTickets This Page is Created for Browsing Saved Ticketes is Alredy Created By Using Actvity 
+Browsw Booked Ticket.
+--This DT is in Dat class so i want to call from Work class so im creaing another DT to call this DT.
+@
+MyOrg-BookMyShow-Work-BookTicket 
+DT Name:- RefundAmountCalculationLink
+ApplyDataTrasform	MyOrg-BookMyShow-Data-SeatsBooked.RefundAmountCalculation
+-------
+This DT IS Calling from work class -Cancel ticket Flow- in That Cancel Screen- Check box configured this DT to calling.

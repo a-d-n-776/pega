@@ -1,0 +1,21 @@
+
+This DT Created in work class for validating.. at least single seat selecting.
+
+Pages & Class:
+
+SeatRowList				Code-Pega-List
+SeatRowList.pxResults	MyOrg-BookMyShow-Data-SeatDetails
+.pxResults				MyOrg-BookMyShow-Data-SeatDetails
+
+
+1.Set					Param.lsSelected	equalto "false"
+2.ForEachPagein      SeatRowList.pxResults	
+	2.1.Set	param.rowcount  equalto		param.pyForEachCount
+	2.2.ForEachPagein	SeatRowList.pxResults(param.rowcount).pxResults	
+		2.2.1.When	.pySelected=="true"
+			2.2.1.1Set     .Param.lsSelected	equalto 	"true"
+3.When	Param.lsSelected=="false"
+	3.1. Set	param.ErrorMessage equalto 	@pxAddMessageToPage(PleaseSelectatLeastOneSeat)
+	
+	-------------------
+	

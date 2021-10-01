@@ -1,0 +1,21 @@
+
+
+Priyanaka logic1.Property set-
+Param.SeatValidation - True
+param.ConfirmedSeats - ""
+
+2.pyWorkpage.TheaterRows
+	2.1.cloums(each embedd page)
+		2.1.1.Property set (When .Seat == "True" )
+		param.SeatValidation - False
+		param.ConfirmedSeats - param.ConfirmedSeats+ ','+.SeatNumber
+		
+3.Page-set-Messages
+Message- Please selecte the seats
+4.propertyset
+
+-----------------
+Parameters:
+SeatValidation - True or False
+---
+---------------------------------------

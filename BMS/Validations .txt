@@ -1,0 +1,21 @@
+
+1.DateTime:
+----Past Date is not accepted. -----
+@CompareDates
+(@FormatDateTime
+(@CurrentDateTime(),yyyyMMdd,pxRequestor.pyUseTimeZone,en_US)
+,@FormatDateTime(.DateTime,yyyyMMdd,pxRequestor.pyUseTimeZone,en_US))
+
+------
+2..TimeSlot:
+---The Show is no longer available---
+---
+.TimeSlot!==""
+----
+@CompareDateTimeStamp
+(@FormatDateTime
+(@CurrentDateTime(),yyyyMMdd,pxRequestor.pyUseTimeZone,en_US)+"T000000.000 GMT"
+,@FormatDateTime(.DateTime,yyyyMMdd,pxRequestor.pyUseTimeZone,en_US)+"T000000.000 GMT")
+--
+@defaultCompareTimes
+(.TimeSlot,@FormatDateTime(@CurrentDateTime(),HHmmss,pxRequestor.pyUseTimeZone,en_US))<0

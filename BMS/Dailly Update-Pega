@@ -1,0 +1,89 @@
+17-09-21:::
+
+.Hi Team,
+please find the below points which are discussed  in the today  (17/09/2021) meeting.
+
+Build a Cancalation and refund
+After cancalation the seats can be rebooking for other users
+
+Step1
+1. The booked ticket should be assosiated with email id/phn no and stored in some table
+2. Build a search screen-phn no and email (fields)
+3. In the search screen user can enter email/phn no/name
+4. Capture the value and create the reprt defination /obj brows
+5. RD fetching the data from the booking information stored table
+6. Once we get the booked data, provide the partial/toatal cancalation
+7. Based upon the cancalation make the seat available for other user
+8. Send the email confirmation for cancalation the ticketsBooking
+---MOM---
+.Keep the Mandatory fields As required ,Language/Movie/Mobile Number/Email Address
+.2nd Screen Without selecte Any Ticket It will go Back To previous Screen
+.Change Back/Continue to Privious/Next
+.Booking Summary Shoub be Available At the last Screen
+.Change the Heading of the Popup To Confirmation Screen 
+.Change the Skin Of the Button
+.Add the Ticket Cancel Option/Refund Email 
+--------------------------------
+For ME: One click I Want to Book all seates..or  Theather book
+
+20-09-21:::
+pyWorkPage.SeatsBooked.ID
+1632016789A1
+pyWorkPage.SeatsBooked
+----
+.Phone && Email...
+
+20-09-21::
+--
+22-09-21.
+.Py work page shoud not work..
+.Use DT instade of Activity for poulating Setes.
+.
+23-09-21
+.Devlop code for seat price caluclation..
+.To Show Start Date & End Date of movie (On the screen )
+.Review Screen Cancalation Button.
+24-09-21.
+1.Seat the price in embeded List((.px result list(.px result list))
+[SeatRowList.pxResults(param.rowcount).pxResults(<Last>)]
+2.Calulatation of seat price  Part(23-09-21)- Target-24-09-21
+3.Movie Start Date & End Date Populate in screen ()Target-24-09-21
+4.
+-----
+Saurav Kumar10:21 AM
+SeatRowList.pxResults(param.rowcount).RowPrice
+Saurav Kumar10:33 AM
+SeatRowList.pxResults(param.rowcount).pxResults(<Last>)
+-
+Movie Start Date & End Date Populating  on screen done.
+Seat  price in embeded List is Populated on clipboard Done.
+Calulatation of seat price - In-Process
+----------
+27-09-21:---
+pxAddMessageToPage - used in validation..
+param.ErrorMessage - source
+.DT- Call superclass data transform? Select to cause the system at runtime to invoke data transforms with the same Name in any of its parent classes before it invokes this data transform. Click the Open super class data transform icon to open the data transform for the superclass.
+ In looking up the instance at design time, standard rule resolution is used (except if the rules are circumstanced, in which case the base rule is opened).
+.Naming-
+
+.use cas of all superclass data transform in pega:-
+You use the superclass feature when you call a data transform to set a different default value for the same property within a hierarchy of subclasses.
+
+28-09-21:-------
+https://collaborate.pega.com/question/integrating-google-maps-api-using-pega
+
+.Today Date user shoud not see Before time slotes..
+.Creating Test Case for upcoming Development
+.Populating Seat Row & Seat Numbers
+
+.Using This Activity we can Populating Seat Row & Seat Numbers & Disabling Seats
+-------------------
+29-09-21:
+Weekly Status - Booked & Cancelled Amount..
+Generate a report for total Sales as per city,Theather
+-----
+30-09-21
+
+01-10-21
+Seat type..
+Seat 
